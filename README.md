@@ -1,4 +1,4 @@
-# Titanic Survival Analysis
+# Tragedy at Sea: Analyzing Titanic Passenger Data
 
 ## Resources
 Data source: titanic3.xls
