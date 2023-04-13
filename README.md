@@ -6,19 +6,7 @@ Data source: titanic3.xls
 Software: Tableau Desktop Public Edition Version 2023.1
 
 ## Project Overview
-### Use the provided data to create a dashboard
-
-Tasks include:
-
-1. Importing the data into Tableau
-2. Determining the overall survival rate
-3. Finding the gender breakdown
-4. Finding the class level breakdown
-5. Finding the number of siblings or spouses aboard
-6. Finding the number of parents or children aboard
-3. Finding the survival rate by age group
-4. Finding the average fare paid, average age
-
+### Use the provided data to create a dashboard to tell the best possible data driven story
 
 ## Processing and Visualization
 After inspecting the csv file, I connected it to Tableau as an Excel file. 
