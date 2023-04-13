@@ -6,7 +6,7 @@ Data source: titanic3.xls
 Software: Tableau Desktop Public Edition Version 2023.1
 
 ## Project Objective
-Use the provided data to create a dashboard to tell the best possible data driven story
+### Use the provided data to create a dashboard to tell the best possible data driven story.
 
 ## Processing and Visualization
 After inspecting the csv file, I connected it to Tableau as an Excel file. 
