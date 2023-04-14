@@ -38,7 +38,7 @@ Since there were a wide range of ages in the dataset, I decided to group them in
 
 1. There were 1,309 total passengers on the Titanic, not including the 900+ crew members.
 2. The age group with the highest representation among passengers were those between 18 and 35, accounting for 43.5% of the total passenger count.
-2. The average age and fare across all passengers was 29.9 years old and $33.30.
+2. The average age and fare for all passengers was 29.9 years old and $33.30.
 3. The majority of the passengers were third-class males from Southampton, England in the United Kingdom, many of whom were traveling alone or were single.
 4. It appears that passengers in age groups 0-17 and 45-64 had higher average survival rates, possibly because they included children and parents who were prioritized for rescue. In contrast, age groups 18-35 and 36-44 had lower average survival rates, likely due to the higher proportion of third-class single males among these age ranges. It is worth noting that the average survival rate for the 65-80 age range may be unreliable, as this group represents only 1% of the total passengers.
 
