@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PHN22MZ');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>NYC Citi Bike Summary for August 2019</title>
+    <style>
+        #preview {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        p.has-line-data[data-line-start="15"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="19"] {
+            margin-top: 2em;
+        }
+
+        p.has-line-data[data-line-start="23"] {
+            margin-top: 2em;
+        }
+
+        body {
+            font-size: 20px;
+        }
+
+        .my-hr {
+            margin-top: -1.25em !important;
+            margin-bottom: 0em !important;
+        }
+    </style>
+</head>
+
+<body id="preview">
+    <h1 class="code-line" data-line-start=0 data-line-end=1><a
+            id="Tragedy_at_Sea_Analyzing_Titanic_Passenger_Data_0"></a>Tragedy at Sea: Analyzing Titanic Passenger Data
+    </h1>
+    <h2 class="code-line" data-line-start=2 data-line-end=3><a id="Resources_2"></a>Resources</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="3" data-line-end="4">Data source: titanic3.xls</p>
+    <p class="has-line-data" data-line-start="5" data-line-end="6">Software: Tableau Desktop Public Edition Version
+        2023.1</p>
+    <h2 class="code-line" data-line-start=7 data-line-end=8><a id="Project_Objective_7"></a>Project Objective</h2>
+    <hr class="my-hr">
+    <p class="code-line" data-line-start=8 data-line-end=9><a
+            id="Use_the_provided_data_to_create_a_dashboard_to_tell_the_best_possible_data_driven_story_8"></a>Use the
+        provided data to create a dashboard to tell the best possible data driven story.</p>
+    <h2 class="code-line" data-line-start=10 data-line-end=11><a id="Processing_and_Visualization_10"></a>Processing and
+        Visualization</h2>
+    <hr class="my-hr">
+    <p class="has-line-data" data-line-start="11" data-line-end="12">After inspecting the csv file, I connected it to
+        Tableau as an Excel file.</p>
+    <p class="has-line-data" data-line-start="13" data-line-end="14"><img src="Images/connect3.png" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="15" data-line-end="16">Next, I reviewed the measures and dimensions and
+        noticed that some of them were categorized incorrectly. The image on the left is the before and the image on the
+        right is the after.</p>
+    <p class="has-line-data" data-line-start="17" data-line-end="18"><img src="Images/md1.png" alt="Screenshot"> <img
+            src="Images/md2.png" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="19" data-line-end="20">The histogram illustrates the distribution of
+        passenger ages in the dataset. The majority of passengers fall in the 18 to 35 age range.</p>
+    <p class="has-line-data" data-line-start="21" data-line-end="22"><img src="Images/hist.png" alt="Screenshot"></p>
+    <p class="has-line-data" data-line-start="23" data-line-end="24">Since there were a wide range of ages in the
+        dataset, I decided to group them into specific ranges.</p>
+    <p class="has-line-data" data-line-start="25" data-line-end="26"><img src="Images/age_groups.png" alt="Screenshot">
+    </p>
+    <h1 class="code-line" data-line-start="32" data-line-end="33">View the Dashboard on <a
+            href="https://public.tableau.com/views/TragedyatSeaAnalyzingTitanicPassengerData/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
+            target="_blank">Tableau Public</a></h1>
+    <h2 class="code-line" data-line-start=31 data-line-end=32><a id="Drawing_Insights_31"></a>Drawing Insights</h2>
+    <hr class="my-hr">
+    <ol>
+        <li class="has-line-data" data-line-start="33" data-line-end="34">There were 1,309 total passengers on the
+            Titanic, not including the 900+ crew members.</li>
+        <li class="has-line-data" data-line-start="34" data-line-end="35">The age group with the highest representation
+            among passengers were those between 18 and 35, accounting for 43.5% of the total passenger count.</li>
+        <li class="has-line-data" data-line-start="35" data-line-end="36">The average age and fare for all passengers
+            was 29.9 years old and $33.30.</li>
+        <li class="has-line-data" data-line-start="36" data-line-end="37">The majority of the passengers were
+            third-class males from Southampton, England in the United Kingdom, many of whom were traveling alone or were
+            single.</li>
+        <li class="has-line-data" data-line-start="37" data-line-end="39">It appears that passengers in age groups 0-17
+            and 45-64 had higher average survival rates, possibly because they included children and parents who were
+            prioritized for rescue. In contrast, age groups 18-35 and 36-44 had lower average survival rates, likely due
+            to the higher proportion of third-class single males among these age ranges. It is worth noting that the
+            average survival rate for the 65-80 age range may be unreliable, as this group represents only 1% of the
+            total passengers.</li>
+    </ol>
+    <hr>
+    <p class="has-line-data" data-line-start="40" data-line-end="41">Return to the <a
+            href="https://kenlo94.github.io/">Homepage</a></p>
+</body>
+
+</html>
