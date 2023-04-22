@@ -11,7 +11,7 @@ Software: Tableau Desktop Public Edition Version 2023.1
 ## Processing and Visualization
 After inspecting the csv file, I connected it to Tableau as an Excel file. 
 
-![Screenshot](Images/connect.png)
+![Screenshot](Images/connect2.png)
 
 Next, I reviewed the measures and dimensions and noticed that some of them were categorized incorrectly. The image on the left is the before and the image on the right is the after.
 
@@ -19,14 +19,14 @@ Next, I reviewed the measures and dimensions and noticed that some of them were 
 
 The histogram illustrates the distribution of passenger ages in the dataset. The majority of passengers fall in the 18 to 35 age range.
 
-![Screenshot](Images/hist.png)
+![Screenshot](Images/hist2.png)
 
 Since there were a wide range of ages in the dataset, I decided to group them into specific ranges.
 
 ![Screenshot](Images/age_groups.png)
 
 
-<p style="font-size: 48px;"><a href="https://public.tableau.com/views/TragedyatSeaAnalyzingTitanicPassengerData/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">View the Dashboard on Tableau Public</a></p>
+View the Dashboard on [Tableau Public](https://public.tableau.com/views/TragedyatSeaAnalyzingTitanicPassengerData/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank)
 
 
 ## Drawing Insights
