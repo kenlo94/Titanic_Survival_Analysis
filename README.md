@@ -26,7 +26,7 @@ Since there were a wide range of ages in the dataset, I decided to group them in
 ![Screenshot](Images/age_groups.png)
 
 
-View the Dashboard on [Tableau Public](https://public.tableau.com/views/TragedyatSeaAnalyzingTitanicPassengerData/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank)
+View the Dashboard on [Tableau Public](https://public.tableau.com/views/TragedyatSeaAnalyzingTitanicPassengerData/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
 ## Drawing Insights
